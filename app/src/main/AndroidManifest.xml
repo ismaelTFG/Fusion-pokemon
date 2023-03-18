@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fusion_Pokemon">
         <activity
+            android:name=".PokedexActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CajaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BatallaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
